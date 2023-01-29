@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    li a {
+      font-size: 16px;
+      color: rgb(33, 37, 41);
+      font-weight: 400;
+    }
+  }
+}
+nav {
+  width: 100%;
+  z-index: 111;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

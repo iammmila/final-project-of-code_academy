@@ -1,0 +1,52 @@
+.hero_section {
+  background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/hero/h1_hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+
+  .hero_section_wrapper {
+    padding: 150px 0;
+
+    .slide {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .sliderContent {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 65%;
+      }
+    }
+    h3 {
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+    h1 {
+      font-size: 85px;
+      color: black;
+      font-weight: 800;
+      text-transform: capitalize;
+    }
+    button {
+      width: 30%;
+    }
+    p {
+      width: 70%;
+    }
+  }
+}
+
+.swiper-button-prev {
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+.swiper-button-next {
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
